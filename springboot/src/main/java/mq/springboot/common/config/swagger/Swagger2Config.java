@@ -1,4 +1,4 @@
-package mq.springboot.common;
+package mq.springboot.common.config.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,7 +32,7 @@ public class Swagger2Config {
                 //页面标题
                 .title("Spring Boot 测试使用 Swagger2 构建RESTful API")
                 //创建人
-                .contact(new Contact("MarryFeng", "http://www.baidu.com", ""))
+                .contact(new Contact("Happy.L.K", "", ""))
                 //版本号
                 .version("1.0")
                 //描述

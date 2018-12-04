@@ -1,4 +1,4 @@
-package mq.springboot.common;
+package mq.springboot.common.response;
 
 import lombok.Data;
 
