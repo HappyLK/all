@@ -10,7 +10,6 @@ import java.util.List;
  * @author V_Happy.L.K
  * @date 2018/12/4 15:47
  */
-@Data
 @Entity
 public class SysPermission implements Serializable {
     /**

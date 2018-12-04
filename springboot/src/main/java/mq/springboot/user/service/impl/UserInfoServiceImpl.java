@@ -22,6 +22,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public UserInfo findByUsername(String username) {
-        return null;
+        UserInfo userInfo = userResponsity.findByUsername(username);
+        return userInfo;
     }
 }

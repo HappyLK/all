@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
-@Data
 @Entity
 @ApiModel("用户信息")
 public class UserInfo implements Serializable {
